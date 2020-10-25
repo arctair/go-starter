@@ -1,0 +1,3 @@
+#!/bin/sh
+docker build -t arctair/go-starter:`scripts/versionByDepth` .
+docker push arctair/go-starter:`scripts/versionByDepth`
